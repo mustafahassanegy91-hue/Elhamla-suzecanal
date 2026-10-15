@@ -15,6 +15,7 @@ h1 ,h2{
 input{
     display: block !important;
     margin: auto !important;
+    width:100px !important;
   
 }
 
