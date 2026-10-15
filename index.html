@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>توزيع مواد بتروليه </title>
+    <link rel="stylesheet" href="../libary/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+
+    <div class="container m-auto bg-black mt-5">
+        <div class="row">
+            <div class="col-md-10">
+                <h1 class="mt-3"> توزيع الوقود حسب معدل الاستهلاك </h1>
+
+                <h2> المسافة بالكيلو متر </h2> <br>
+                <input class="form-control" type="number" name="msafa" placeholder="المسافه" id="masafa" required> <br>
+
+                <h2 >معدل الاستهلاك</h2> <br>
+                <input class="form-control" type="number" name="moadal" placeholder="معدل الاستهلاك" id="moadal" required> <br>
+
+                <button class="btn btn-info" type="submit" onclick="getData()"> كمية الوقود</button> <br>
+
+                <h1 class="result"></h1>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="../libary/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

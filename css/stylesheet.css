@@ -1,0 +1,32 @@
+body{ margin: 0;
+    padding: 0;
+    background-color: blue;
+
+}
+
+h1 ,h2{
+    margin: auto;
+    width: fit-content;
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block !important;
+    margin: auto !important;
+    width: 500px !important;
+}
+
+button{
+    margin: auto !important;
+    display: block !important;
+    padding: 10px !important;
+}
+::placeholder{
+font-size: smaller;
+color: rgb(4, 4, 161,40%);
+font-weight: 500;
+
+    
+}
